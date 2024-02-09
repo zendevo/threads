@@ -91,8 +91,8 @@ export async function fetchUsers({
 }: {
   userId: string;
   searchString?: string;
-  pageNumber?: string;
-  pageSize?: string;
+  pageNumber?: number;
+  pageSize?: number;
   sortBy?: SortOrder;
 }) {
   try {
